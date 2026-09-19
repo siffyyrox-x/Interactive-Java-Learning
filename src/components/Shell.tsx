@@ -54,9 +54,9 @@ export function Footer() {
       <div className="wrap">
         <div>
           <span className="eyebrow" style={{ marginBottom: 4 }}>Credit</span>
-          <strong>Created and developed by Sifat Sadakin</strong><br />
+          <strong>Created by Sifat Sadakin</strong><br />
           FYAT Mentor &amp; Undergraduate Teaching Assistant at OAA (Office of Academic Advising)<br />
-          LinkedIn — <a href="https://www.linkedin.com/in/sifat-sadakin-815b82243/" target="_blank" rel="noreferrer">linkedin.com/in/sifat-sadakin-815b82243</a>
+          <a href="https://www.linkedin.com/in/sifat-sadakin-815b82243/" target="_blank" rel="noreferrer">LinkedIn</a>
         </div>
         <div className="tiny" style={{ alignSelf: 'flex-end' }}>Runs entirely in your browser · progress stays on this device</div>
       </div>
