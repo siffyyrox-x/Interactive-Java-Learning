@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSE110 — Interactive Java Learning Lab</title>
+    <script>
+      /* GitHub Pages serves this file for unknown paths. The app uses hash
+         routing, so we send the visitor to the site root and preserve the
+         requested route as a hash. Works for both user sites and project
+         (repository sub-path) sites. */
+      (function () {
+        var parts = location.pathname.replace(/^\/+/, '').split('/');
+        var isProjectSite = location.hostname.endsWith('.github.io') && parts.length > 1;
+        var root = isProjectSite ? '/' + parts[0] + '/' : '/';
+        var rest = location.pathname.slice(root.length).replace(/^\/+|\/+$/g, '');
+        location.replace(root + (rest ? '#/' + rest : '') + location.search);
+      })();
+    </script>
+  </head>
+  <body>
+    <noscript>Enable JavaScript, or open the site root to continue.</noscript>
+  </body>
+</html>

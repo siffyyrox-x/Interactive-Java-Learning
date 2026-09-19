@@ -1,0 +1,36 @@
+{
+  "name": "cse110-interactive-java-learning-lab",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "node scripts/verify.mjs",
+    "verify:java": "node scripts/verify-java.mjs"
+  },
+  "dependencies": {
+    "@codemirror/commands": "6.11.1",
+    "@codemirror/lang-java": "6.0.2",
+    "@codemirror/language": "6.12.4",
+    "@codemirror/state": "6.7.5",
+    "@codemirror/view": "6.43.12",
+    "@fontsource/jetbrains-mono": "5.3.0",
+    "@fontsource/source-sans-3": "5.3.0",
+    "@fontsource/zilla-slab": "5.3.0",
+    "@lezer/highlight": "1.2.3",
+    "codemirror": "6.0.2",
+    "lucide-react": "0.469.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.18",
+    "@types/react-dom": "18.3.5",
+    "@vitejs/plugin-react": "4.3.4",
+    "esbuild": "0.24.2",
+    "typescript": "5.7.3",
+    "vite": "6.0.7"
+  }
+}
