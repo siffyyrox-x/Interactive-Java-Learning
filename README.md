@@ -17,3 +17,5 @@ Drawing on this experience, my teaching materials, and the resources I've gather
 
 The website is completely free, requires no registration or installation, and works on desktop and mobile devices.
 
+P.S. This project was built through AI-assisted vibe coding, guided by my own creativity, ideas, and basic understanding of development. It was an experimental project focused on exploring what’s possible through AI-powered development.
+
